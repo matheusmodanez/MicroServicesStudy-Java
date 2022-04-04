@@ -1,0 +1,22 @@
+package com.github.matheusmodanez.study_microservice;
+
+public class CommentController {
+	
+	// Create
+	public Long createComment(Comment comment) {
+		return null;
+	}
+	
+	
+	// Retrieve/Repeat
+	listComments()
+	
+	searchById()
+	
+	// Update
+	updateComment()
+	
+	
+	// Delete
+	deleteComment()
+}

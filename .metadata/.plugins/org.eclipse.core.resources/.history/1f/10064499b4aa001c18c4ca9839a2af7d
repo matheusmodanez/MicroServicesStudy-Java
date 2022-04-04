@@ -1,0 +1,5 @@
+package com.github.matheusmodanez.study_microservice;
+
+public class CommentRepository {
+	private List
+}

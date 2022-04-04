@@ -1,0 +1,32 @@
+package com.github.matheusmodanez.study_microservice;
+
+import java.util.List;
+
+public class CommentRepository {
+	private List<Comment> comments;
+	private Long currentId = 0;
+	
+	public CommentRepository() {
+		this.load();
+	}
+	
+	private void load() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Long createComment(Comment comment) {
+		this.currentId++;
+		
+		comment.setId(this.currentId);
+		comments.add(comment);
+		
+		return comment.getId();
+	}
+	
+	public List<Comment> listComments() {
+		return comments;
+	}
+	
+	
+}

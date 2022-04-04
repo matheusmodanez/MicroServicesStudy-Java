@@ -1,0 +1,15 @@
+package com.github.matheusmodanez.study_microservice;
+
+import java.util.List;
+
+public class CommentRepository {
+	private List<Comment> comments;
+	
+	public CommentRepository() {
+		this.load();
+	}
+	
+	public List<Comment> listComments() {
+		return comments;
+	}
+}

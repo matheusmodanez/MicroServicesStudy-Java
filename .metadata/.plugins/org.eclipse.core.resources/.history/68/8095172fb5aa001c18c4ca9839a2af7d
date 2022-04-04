@@ -1,0 +1,19 @@
+package com.github.matheusmodanez.study_microservice;
+
+public class CommentController {
+	private CommentRepository commentRepository = new CommentRepository();
+	
+	// Create
+	public Long createComment(Comment comment) {
+		return commentRepository.createComment(comment);
+	}
+	
+	
+	// Retrieve/Repeat
+	
+	
+	// Update
+	
+	
+	// Delete
+}

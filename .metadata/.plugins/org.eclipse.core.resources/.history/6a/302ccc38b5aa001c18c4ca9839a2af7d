@@ -1,0 +1,22 @@
+package com.github.matheusmodanez.study_microservice;
+
+import org.springframework.web.bind.annotation.PostMapping;
+
+public class CommentController {
+	private CommentRepository commentRepository = new CommentRepository();
+	
+	// Create
+	@PostMapping
+	public Long createComment(Comment comment) {
+		return commentRepository.createComment(comment);
+	}
+	
+	
+	// Retrieve/Repeat
+	
+	
+	// Update
+	
+	
+	// Delete
+}
