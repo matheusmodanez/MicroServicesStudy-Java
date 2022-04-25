@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/modanezm/code/FIAP/Microservices/study-mvc"/>
 			<item value="/home/modanezm/Documents/Downloads/checkpointIsa"/>
 			<item value="/home/modanezm/code/FIAP/3SIT-Workspace/checkpoint"/>
 			<item value="/home/modanezm/Documents/Downloads/dbjson-comments"/>
